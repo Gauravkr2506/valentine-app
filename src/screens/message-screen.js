@@ -66,7 +66,7 @@ class MessageScreen extends Component {
 	render() {
 		return (
 			<View style={{ flex: 1 }}>
-				<TopNavigation changeType={type => this.changeType(type)} />
+				{/* <TopNavigation changeType={type => this.changeType(type)} /> */}
 				<ImageBackground source={require("./../../img/bottle.jpg")} style={{ flex: 1, backgroundColor: "white" }}>
 					<View style={{ flex: 10 }}>
 						<FlatList data={this.props.data} renderItem={this._renderItem} />
