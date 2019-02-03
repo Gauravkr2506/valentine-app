@@ -1,4 +1,5 @@
 import React from "react";
+import SplashScreen from "react-native-splash-screen";
 import { BackHandler, InteractionManager, ActivityIndicator, FlatList, Animated, Easing } from "react-native";
 
 import { Container, Content, StyleProvider, Root, Header, Title, Button, Left, Body, Text, Icon, Card, CardItem, Row, Col, View, Grid } from "native-base";
@@ -12,7 +13,11 @@ class Main extends React.Component {
 		// this.getData = this.getData.bind(this);
 	}
 	componentWillMount() {
+
 		this.props.LoadData();
+	}
+	componentDidMount(){
+		SplashScreen.hide();
 	}
 	// getData() {
 	// 	return this.props.data.map(item => {

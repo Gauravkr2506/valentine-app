@@ -28,9 +28,10 @@ const MainNav = createStackNavigator(
 		},
 		MessageScreen: {
 			screen: MessageScreen,
-			navigationOptions: {
-				header: null
-			}
+			navigationOptions: ({ navigation }) => ({
+				title: navigation.state.params.title
+			})
+			
 		}
 		// Video: Video
 	},

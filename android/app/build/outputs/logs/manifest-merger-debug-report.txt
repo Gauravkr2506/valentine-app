@@ -1,0 +1,161 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-splash-screen] F:\future\native\valentine-app\node_modules\react-native-splash-screen\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-14:12
+MERGED from [:react-native-gesture-handler] F:\future\native\valentine-app\node_modules\react-native-gesture-handler\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.57.8] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\react-native-0.57.8.aar\fa25d8c59fc0509c6bda01eb26ef1f05\AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\82f7e027f1a4be351a986fb79593fa43\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\fresco-1.10.0.aar\2444a6e30a8524785e05be0098f0a14a\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.10.0.aar\1e6a12dfe4a2784bd502b10cd162e2f0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\drawee-1.10.0.aar\fd6f5c9b47e8f6fb3728016dd09f0616\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.10.0.aar\2211a6f4802a12b3dd81d47c830f9330\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.10.0.aar\c57a7fb5ffba7eecb1846b81a52107ec\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\soloader-0.5.1.aar\80c7d051eab63d37d0730e20158913e0\AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\8de4a77a8884f0bfb27b691f1e615c78\AndroidManifest.xml:1:1-3:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\fbcore-1.10.0.aar\b6101721a82422acdd8da7826bae7209\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\8aad93ceb8876837aa761e62147663db\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\d4cb748b4f0afb49455b373b197b5b10\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\d8ae09e709cf67595a1a2ea240033b92\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\044d0ed7e04ad893e75d6d2cf563e514\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\098bacb94c75a6ba39429d48ec06c55d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e936a24a93fedd4fdf350691d804a240\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\86807534c7ca7e38ea70054c591faf06\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\75120dc8f4bbf513f2495bcc2f7c0094\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\c85dda5e9245e96adfa1c68aa8a9d62b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\e15ee7bd633128605bccc80640e86d71\AndroidManifest.xml:17:1-22:12
+INJECTED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:1:1-26:12
+	package
+		ADDED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:2:5-23
+		INJECTED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:1:1-26:12
+		INJECTED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:1:1-26:12
+		INJECTED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.57.8] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\react-native-0.57.8.aar\fa25d8c59fc0509c6bda01eb26ef1f05\AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.57.8] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\react-native-0.57.8.aar\fa25d8c59fc0509c6bda01eb26ef1f05\AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:5:22-75
+application
+ADDED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:7:5-24:19
+MERGED from [:react-native-splash-screen] F:\future\native\valentine-app\node_modules\react-native-splash-screen\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-12:19
+MERGED from [:react-native-splash-screen] F:\future\native\valentine-app\node_modules\react-native-splash-screen\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-12:19
+MERGED from [com.facebook.react:react-native:0.57.8] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\react-native-0.57.8.aar\fa25d8c59fc0509c6bda01eb26ef1f05\AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.57.8] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\react-native-0.57.8.aar\fa25d8c59fc0509c6bda01eb26ef1f05\AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\soloader-0.5.1.aar\80c7d051eab63d37d0730e20158913e0\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\soloader-0.5.1.aar\80c7d051eab63d37d0730e20158913e0\AndroidManifest.xml:11:5-20
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\8de4a77a8884f0bfb27b691f1e615c78\AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\8de4a77a8884f0bfb27b691f1e615c78\AndroidManifest.xml:2:3-17
+	android:label
+		ADDED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:9:7-39
+	android:icon
+		ADDED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:10:7-41
+	android:allowBackup
+		ADDED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:12:7-38
+	android:name
+		ADDED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:8:7-38
+activity#com.yttd.MainActivity
+ADDED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:13:7-22:18
+	android:label
+		ADDED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:15:9-41
+	android:windowSoftInputMode
+		ADDED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:17:9-51
+	android:configChanges
+		ADDED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:16:9-79
+	android:name
+		ADDED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:18:9-21:25
+action#android.intent.action.MAIN
+ADDED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:19:13-65
+	android:name
+		ADDED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:19:21-62
+category#android.intent.category.LAUNCHER
+ADDED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:20:13-73
+	android:name
+		ADDED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:20:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:23:7-84
+	android:name
+		ADDED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:23:17-81
+uses-sdk
+INJECTED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml
+INJECTED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-splash-screen] F:\future\native\valentine-app\node_modules\react-native-splash-screen\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-splash-screen] F:\future\native\valentine-app\node_modules\react-native-splash-screen\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] F:\future\native\valentine-app\node_modules\react-native-gesture-handler\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] F:\future\native\valentine-app\node_modules\react-native-gesture-handler\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.57.8] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\react-native-0.57.8.aar\fa25d8c59fc0509c6bda01eb26ef1f05\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.57.8] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\react-native-0.57.8.aar\fa25d8c59fc0509c6bda01eb26ef1f05\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\82f7e027f1a4be351a986fb79593fa43\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\82f7e027f1a4be351a986fb79593fa43\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\fresco-1.10.0.aar\2444a6e30a8524785e05be0098f0a14a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\fresco-1.10.0.aar\2444a6e30a8524785e05be0098f0a14a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.10.0.aar\1e6a12dfe4a2784bd502b10cd162e2f0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.10.0.aar\1e6a12dfe4a2784bd502b10cd162e2f0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\drawee-1.10.0.aar\fd6f5c9b47e8f6fb3728016dd09f0616\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\drawee-1.10.0.aar\fd6f5c9b47e8f6fb3728016dd09f0616\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.10.0.aar\2211a6f4802a12b3dd81d47c830f9330\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.10.0.aar\2211a6f4802a12b3dd81d47c830f9330\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.10.0.aar\c57a7fb5ffba7eecb1846b81a52107ec\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.10.0.aar\c57a7fb5ffba7eecb1846b81a52107ec\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\soloader-0.5.1.aar\80c7d051eab63d37d0730e20158913e0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\soloader-0.5.1.aar\80c7d051eab63d37d0730e20158913e0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\fbcore-1.10.0.aar\b6101721a82422acdd8da7826bae7209\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\fbcore-1.10.0.aar\b6101721a82422acdd8da7826bae7209\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\8aad93ceb8876837aa761e62147663db\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\8aad93ceb8876837aa761e62147663db\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\d4cb748b4f0afb49455b373b197b5b10\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\d4cb748b4f0afb49455b373b197b5b10\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\d8ae09e709cf67595a1a2ea240033b92\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\d8ae09e709cf67595a1a2ea240033b92\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\044d0ed7e04ad893e75d6d2cf563e514\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\044d0ed7e04ad893e75d6d2cf563e514\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\098bacb94c75a6ba39429d48ec06c55d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\098bacb94c75a6ba39429d48ec06c55d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e936a24a93fedd4fdf350691d804a240\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e936a24a93fedd4fdf350691d804a240\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\86807534c7ca7e38ea70054c591faf06\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\86807534c7ca7e38ea70054c591faf06\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\75120dc8f4bbf513f2495bcc2f7c0094\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\75120dc8f4bbf513f2495bcc2f7c0094\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\c85dda5e9245e96adfa1c68aa8a9d62b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\c85dda5e9245e96adfa1c68aa8a9d62b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\e15ee7bd633128605bccc80640e86d71\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\e15ee7bd633128605bccc80640e86d71\AndroidManifest.xml:20:5-44
+INJECTED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml
+INJECTED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from F:\future\native\valentine-app\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE

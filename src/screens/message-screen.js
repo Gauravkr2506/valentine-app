@@ -16,7 +16,8 @@ import {
 	Image,
 	Clipboard,
 	InteractionManager,
-	TouchableNativeFeedback
+	TouchableNativeFeedback,
+	ToastAndroid
 } from "react-native";
 import Menu, { MenuContext, MenuOptions, MenuOption, MenuTrigger } from "react-native-menu";
 import TopNavigation from "./../components/common/menu";
@@ -31,23 +32,20 @@ class MessageScreen extends Component {
 		this.whatsapp = this.whatsapp.bind(this);
 		this.shareTo = this.shareTo.bind(this);
 		this.changeType = this.changeType.bind(this);
+		this.getData = this.getData.bind(this);
 	}
 	componentDidMount() {
 		InteractionManager.runAfterInteractions(this.props.LoadMessage);
 	}
 	share(data) {
 		this.setState({ modalVisible: true, msg: data });
-
-		// Share.share({
-		// 	title: data.title,
-		// 	message: data.message
-		// });
 	}
 
 	_renderItem = ({ item }) => <MyListItem share={data => this.share(data)} data={item} />;
 
 	clipboard() {
 		Clipboard.setString(this.state.msg.message);
+		ToastAndroid.show('Copied to clipboard', ToastAndroid.SHORT);
 	}
 	whatsapp() {
 		Linking.openURL(`whatsapp://send?text=${this.state.msg.message}`);
@@ -62,14 +60,20 @@ class MessageScreen extends Component {
 		// this.setState({ type: type });
 		alert(type);
 	}
-
+getData(){
+if(this.props.message_type == "1"){
+	return this.props.data;
+}else{
+	return this.props.data.filter(msg =>msg.message_type == this.props.message_type);
+}
+}
 	render() {
 		return (
 			<View style={{ flex: 1 }}>
 				{/* <TopNavigation changeType={type => this.changeType(type)} /> */}
 				<ImageBackground source={require("./../../img/bottle.jpg")} style={{ flex: 1, backgroundColor: "white" }}>
 					<View style={{ flex: 10 }}>
-						<FlatList data={this.props.data} renderItem={this._renderItem} />
+						<FlatList data={this.getData()} renderItem={this._renderItem} />
 					</View>
 					<View style={{ flex: 1, backgroundColor: "#008000" }}>{/* <AdMobBanner adSize="smartBannerPortrait" adUnitID="ca-app-pub-9969212413329273/2210166532" /> */}</View>
 					<Modal
@@ -191,7 +195,8 @@ class MyListItem extends Component {
 }
 const mapStateToProps = state => {
 	return {
-		data: state.message_store.data
+		data: state.message_store.data,
+		message_type:state.main_store.selected_message_type
 	};
 };
 const mapDispatchToProps = dispatch => {
