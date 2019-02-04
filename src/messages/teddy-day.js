@@ -1,0 +1,3 @@
+export const Teddy = () => {
+	return [];
+};

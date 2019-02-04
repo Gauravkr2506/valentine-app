@@ -7,19 +7,19 @@ class MyListItem extends React.PureComponent {
 	constructor(props) {
 		super(props);
 	}
-	selectMessageType(key,title) {
+	selectMessageType(key, title) {
 		InteractionManager.runAfterInteractions(() => this.props.SelectMessageType(key));
 
-		this.props.navigation.navigate("MessageScreen",{title});
+		this.props.navigation.navigate("MessageScreen", { title });
 	}
 	render() {
 		let { key, title, description, img, date } = this.props.data;
 
 		return (
-			<TouchableOpacity onPress={this.selectMessageType.bind(this, key,title)}>
+			<TouchableOpacity onPress={this.selectMessageType.bind(this, key, title)}>
 				<View style={{ backgroundColor: "#fff", padding: 15, marginHorizontal: 5, marginVertical: 10, borderRadius: 20, borderWidth: 6, borderColor: "#ffa4b5" }}>
 					<View style={{ flexDirection: "row" }}>
-						<View style={{ width: 100, height: 100 }}>
+						<View style={{ width: 100, justifyContent: "center" }}>
 							<Image source={img} style={{ width: 80, height: 80 }} />
 						</View>
 						<View style={{ flex: 1 }}>

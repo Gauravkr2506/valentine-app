@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\future\\native\\valentine-app\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hy\\values-hy.xml",
+            "outputFile": "/Users/healthmug/Documents/Gaurav/vtd/valentine-app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hy/values-hy.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\e936a24a93fedd4fdf350691d804a240\\res\\values-hy\\values-hy.xml",
+                    "source": "/Users/healthmug/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/9f039f4ca21c576cb6de172a1b946007/res/values-hy/values-hy.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\82f7e027f1a4be351a986fb79593fa43\\res\\values-hy\\values-hy.xml",
+                    "source": "/Users/healthmug/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/07b56a5c0b34e8adce775bc4f5ef255a/res/values-hy/values-hy.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
