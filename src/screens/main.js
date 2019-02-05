@@ -1,6 +1,6 @@
 import React from "react";
 import SplashScreen from "react-native-splash-screen";
-import { BackHandler, InteractionManager, ActivityIndicator, FlatList, Animated, Easing } from "react-native";
+import { BackHandler, InteractionManager, ActivityIndicator, FlatList, Animated, Easing,ImageBackground } from "react-native";
 
 import { Container, Content, StyleProvider, Root, Header, Title, Button, Left, Body, Text, Icon, Card, CardItem, Row, Col, View, Grid } from "native-base";
 import { connect } from "react-redux";
@@ -27,11 +27,13 @@ class Main extends React.Component {
 	_renderItem = ({ item }) => <MyListItem data={item} navigation={this.props.navigation} />;
 	render() {
 		return (
-			<Container style={{ backgroundColor: "#ff4481" }}>
+			<ImageBackground source={require("./../../img/img1.png")} style={{ flex: 1, backgroundColor: "white" }}>
+			{/* <Container style={{ backgroundColor: "#ff4481" }}> */}
 				<Content padder>
 					<FlatList data={this.props.data} renderItem={this._renderItem} />
 				</Content>
-			</Container>
+			{/* </Container> */}
+			</ImageBackground>
 		);
 	}
 }

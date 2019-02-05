@@ -7,8 +7,7 @@ whisper about the passion I feel for
 you. Hope these beautiful roses 
 convey what I feel for you. 
 Happy Rose Day!
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹
-,
+🌹🌹🌹💐💐💐💐💐🌹🌹🌹`,
 			message_type: "2",
 			language: "en"
 		},
@@ -110,8 +109,10 @@ Happy Rose Day!
 		},
 		{
 			message: `🌹🌹🌹💐💐💐💐💐🌹🌹🌹
-roses which symbolize our 
-eternal love, my darling. 
+Just like a rose fills the air 
+with its fragrance, you have 
+filled my life with love and 
+joy. 
 Happy Rose Day!
 🌹🌹🌹💐💐💐💐💐🌹🌹🌹`,
 			message_type: "2",
@@ -119,8 +120,11 @@ Happy Rose Day!
 		},
 		{
 			message: `🌹🌹🌹💐💐💐💐💐🌹🌹🌹
-roses which symbolize our 
-eternal love, my darling. 
+A single rose can spread 
+fragrance in the whole room 
+just like you alone bring 
+enormous happiness to my life. 
+Love you, darling.
 Happy Rose Day!
 🌹🌹🌹💐💐💐💐💐🌹🌹🌹`,
 			message_type: "2",
@@ -128,8 +132,9 @@ Happy Rose Day!
 		},
 		{
 			message: `🌹🌹🌹💐💐💐💐💐🌹🌹🌹
-roses which symbolize our 
-eternal love, my darling. 
+I asked for a flower but God 
+gave me a rose🌹...
+You are the rose🌹...
 Happy Rose Day!
 🌹🌹🌹💐💐💐💐💐🌹🌹🌹`,
 			message_type: "2",
@@ -137,8 +142,9 @@ Happy Rose Day!
 		},
 		{
 			message: `🌹🌹🌹💐💐💐💐💐🌹🌹🌹
-roses which symbolize our 
-eternal love, my darling. 
+Our love is like a rose.. 
+it will bloom and bloom.. 
+forever.. 
 Happy Rose Day!
 🌹🌹🌹💐💐💐💐💐🌹🌹🌹`,
 			message_type: "2",
@@ -146,8 +152,9 @@ Happy Rose Day!
 		},
 		{
 			message: `🌹🌹🌹💐💐💐💐💐🌹🌹🌹
-roses which symbolize our 
-eternal love, my darling. 
+Sending a bunch of lovely 
+roses to the most beautiful 
+woman in the world.. 
 Happy Rose Day!
 🌹🌹🌹💐💐💐💐💐🌹🌹🌹`,
 			message_type: "2",
@@ -155,8 +162,11 @@ Happy Rose Day!
 		},
 		{
 			message: `🌹🌹🌹💐💐💐💐💐🌹🌹🌹
-roses which symbolize our 
-eternal love, my darling. 
+Roses are really delicate 
+don't touch it with hands, 
+my love is also the same... 
+don't throw harsh words on 
+it... 
 Happy Rose Day!
 🌹🌹🌹💐💐💐💐💐🌹🌹🌹`,
 			message_type: "2",
@@ -164,8 +174,12 @@ Happy Rose Day!
 		},
 		{
 			message: `🌹🌹🌹💐💐💐💐💐🌹🌹🌹
-roses which symbolize our 
-eternal love, my darling. 
+I asked God for a rose And he 
+gave me a garden, I ask God 
+for a drop of water And he 
+gave me an ocean, I asked God 
+for an angel And he gave me 
+you!
 Happy Rose Day!
 🌹🌹🌹💐💐💐💐💐🌹🌹🌹`,
 			message_type: "2",
@@ -173,8 +187,11 @@ Happy Rose Day!
 		},
 		{
 			message: `🌹🌹🌹💐💐💐💐💐🌹🌹🌹
-roses which symbolize our 
-eternal love, my darling. 
+You know what Rose Means 
+R- Rare 
+O- Ones 
+S- Supporting 
+E- Entire life
 Happy Rose Day!
 🌹🌹🌹💐💐💐💐💐🌹🌹🌹`,
 			message_type: "2",
@@ -182,8 +199,10 @@ Happy Rose Day!
 		},
 		{
 			message: `🌹🌹🌹💐💐💐💐💐🌹🌹🌹
-roses which symbolize our 
-eternal love, my darling. 
+Roses are the best way to 
+express love and define a 
+relationship. I have selected 
+the red one for you
 Happy Rose Day!
 🌹🌹🌹💐💐💐💐💐🌹🌹🌹`,
 			message_type: "2",
@@ -191,8 +210,10 @@ Happy Rose Day!
 		},
 		{
 			message: `🌹🌹🌹💐💐💐💐💐🌹🌹🌹
-roses which symbolize our 
-eternal love, my darling. 
+Great couples are those who 
+accept positive and negative, 
+like the beautiful roses 
+accepting the thrones.
 Happy Rose Day!
 🌹🌹🌹💐💐💐💐💐🌹🌹🌹`,
 			message_type: "2",

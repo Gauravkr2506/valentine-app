@@ -71,10 +71,13 @@ if(this.props.message_type == "1"){
 		return (
 			<View style={{ flex: 1 }}>
 				{/* <TopNavigation changeType={type => this.changeType(type)} /> */}
-				<ImageBackground source={require("./../../img/bottle.jpg")} style={{ flex: 1, backgroundColor: "white" }}>
 					<View style={{ flex: 10 }}>
+				<ImageBackground source={require("./../../img/img2.png")} style={{ flex: 1, backgroundColor: "white" }}>
+
 						<FlatList data={this.getData()} renderItem={this._renderItem} />
+						</ImageBackground>
 					</View>
+					
 					<View style={{ flex: 1, backgroundColor: "#008000" }}>{/* <AdMobBanner adSize="smartBannerPortrait" adUnitID="ca-app-pub-9969212413329273/2210166532" /> */}</View>
 					<Modal
 						animationType="slide"
@@ -85,6 +88,8 @@ if(this.props.message_type == "1"){
 							// Alert.alert("Modal has been closed.");
 						}}
 					>
+				<ImageBackground source={require("./../../img/img3.png")} style={{ flex: 1, backgroundColor: "white" }}>
+
 						<View style={{ flex: 1 }}>
 							<View style={{ height: 50, width: "100%", flexDirection: "row-reverse", padding: 10 }}>
 								<TouchableNativeFeedback
@@ -157,8 +162,9 @@ if(this.props.message_type == "1"){
 								<View style={{ height: 50, backgroundColor: "#333" }} />
 							</View>
 						</View>
+						</ImageBackground>
 					</Modal>
-				</ImageBackground>
+				
 			</View>
 		);
 	}

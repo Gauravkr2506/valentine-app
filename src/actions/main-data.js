@@ -2,7 +2,7 @@ export const mainData = () => {
 	return [
 		{
 			key: "1",
-			img: require("./../../img/photoshop.png"),
+			img: require("./../../img/teddy.png"),
 			title: "All Messages",
 			date: "For all Days",
 			description: "Make this valentine week special for your loved one. Choose message for each day and share that with your partner."
@@ -37,14 +37,14 @@ export const mainData = () => {
 		},
 		{
 			key: "6",
-			img: require("./../../img/photoshop.png"),
+			img: require("./../../img/teddy.png"),
 			title: "Promise Day",
 			date: "February 11",
 			description: "Promises are easy to make but hard to keep. It is good to keep the promise we have made to our loved one."
 		},
 		{
 			key: "7",
-			img: require("./../../img/photoshop.png"),
+			img: require("./../../img/teddy.png"),
 			title: "Hug Day",
 			date: "February 12",
 			description: "It is warm and charming feeling and makes others happy. Hug is an important feeling of expressing love and affection."
@@ -58,7 +58,7 @@ export const mainData = () => {
 		},
 		{
 			key: "9",
-			img: require("./../../img/photoshop.png"),
+			img: require("./../../img/teddy.png"),
 			title: "Valentine’s Day",
 			date: "February 14",
 			description: "Spend this whole day with your loved one to make them feel special. Express your love with gifts, chocolates & roses."
@@ -66,244 +66,3 @@ export const mainData = () => {
 	];
 };
 
-export const messages = () => {
-	return [
-		{
-			key: "1",
-			message: `♥♥♥♥♥♥♥♥♥♥♥
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹
-Presenting you red roses that 
-whisper about the passion I feel for 
-you. Hope these beautiful roses 
-convey what I feel for you. 
-Happy Rose Day!
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹
-♥♥♥♥♥♥♥♥♥♥♥`,
-			message_type: "2",
-			language: "en"
-		},
-		{
-			key: "2",
-			message: `🌹🌹🌹💐💐💐💐💐🌹🌹🌹
-Our love is delicate and 
-fragrant like a rose. May it 
-bloom forever and ever. 
-Happy Rose Day!
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹`,
-			message_type: "2",
-			language: "en"
-		},
-		{
-			key: "3",
-			message: `♥♥♥♥♥♥♥♥♥♥♥
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹
-roses which symbolize our 
-eternal love, my darling. 
-Happy Rose Day!
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹`,
-			message_type: "2",
-			language: "en"
-		},
-		{
-			key: "4",
-			message: `♥♥♥♥♥♥♥♥♥♥♥
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹
-My life was full of thorns but 
-in your presence, I feel the 
-comfort of rose beds. You 
-are more beautiful than a rose.
-Happy Rose Day!
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹`,
-			message_type: "2",
-			language: "en"
-		},
-		{
-			key: "5",
-			message: `♥♥♥♥♥♥♥♥♥♥♥
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹
-Red is for love, Yellow is for 
-friendship, White is for 
-peace, Pink is for gratitude, 
-Orange is for fascination.....
-the whole bunch of these roses 
-is for You. You are the love of 
-my life. 
-Happy Rose Day!
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹`,
-			message_type: "2",
-			language: "en"
-		},
-		{
-			key: "6",
-			message: `♥♥♥♥♥♥♥♥♥♥♥
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹
-I want to gift you a present 
-which is as precious as you 
-are. So I am gifting you a 
-bunch of lovely roses.
-Happy Rose Day!
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹`,
-			message_type: "2",
-			language: "en"
-		},
-		{
-			key: "7",
-			message: `♥♥♥♥♥♥♥♥♥♥♥
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹
-There is only one gift that I 
-want from you and that is your 
-smile. May you always keep 
-smiling.
-Happy Rose Day!
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹`,
-			message_type: "2",
-			language: "en"
-		},
-		{
-			key: "8",
-			message: `♥♥♥♥♥♥♥♥♥♥♥
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹
-When I am in your company, 
-I forget my sorrows and pains. 
-May we never part.
-Happy Rose Day!
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹`,
-			message_type: "2",
-			language: "en"
-		},
-		{
-			key: "9",
-			message: `♥♥♥♥♥♥♥♥♥♥♥
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹
-A bunch of roses and lovely 
-wishes for my love 
-Happy Rose Day!
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹`,
-			message_type: "2",
-			language: "en"
-		},
-		{
-			key: "10",
-			message: `♥♥♥♥♥♥♥♥♥♥♥
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹
-Sending you a bunch of roses 
-on this day to express my love 
-for you which is as deep, pure 
-and beautiful
-Happy Rose Day!
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹`,
-			message_type: "2",
-			language: "en"
-		},
-		{
-			key: "11",
-			message: `♥♥♥♥♥♥♥♥♥♥♥
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹
-roses which symbolize our 
-eternal love, my darling. 
-Happy Rose Day!
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹`,
-			message_type: "2",
-			language: "en"
-		},
-		{
-			key: "12",
-			message: `♥♥♥♥♥♥♥♥♥♥♥
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹
-roses which symbolize our 
-eternal love, my darling. 
-Happy Rose Day!
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹`,
-			message_type: "2",
-			language: "en"
-		},
-		{
-			key: "13",
-			message: `♥♥♥♥♥♥♥♥♥♥♥
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹
-roses which symbolize our 
-eternal love, my darling. 
-Happy Rose Day!
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹`,
-			message_type: "2",
-			language: "en"
-		},
-		{
-			key: "14",
-			message: `♥♥♥♥♥♥♥♥♥♥♥
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹
-roses which symbolize our 
-eternal love, my darling. 
-Happy Rose Day!
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹`,
-			message_type: "2",
-			language: "en"
-		},
-		{
-			key: "15",
-			message: `♥♥♥♥♥♥♥♥♥♥♥
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹
-roses which symbolize our 
-eternal love, my darling. 
-Happy Rose Day!
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹`,
-			message_type: "2",
-			language: "en"
-		},
-		{
-			key: "16",
-			message: `♥♥♥♥♥♥♥♥♥♥♥
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹
-roses which symbolize our 
-eternal love, my darling. 
-Happy Rose Day!
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹`,
-			message_type: "2",
-			language: "en"
-		},
-		{
-			key: "17",
-			message: `♥♥♥♥♥♥♥♥♥♥♥
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹
-roses which symbolize our 
-eternal love, my darling. 
-Happy Rose Day!
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹`,
-			message_type: "2",
-			language: "en"
-		},
-		{
-			key: "18",
-			message: `♥♥♥♥♥♥♥♥♥♥♥
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹
-roses which symbolize our 
-eternal love, my darling. 
-Happy Rose Day!
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹`,
-			message_type: "2",
-			language: "en"
-		},
-		{
-			key: "19",
-			message: `♥♥♥♥♥♥♥♥♥♥♥
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹
-roses which symbolize our 
-eternal love, my darling. 
-Happy Rose Day!
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹`,
-			message_type: "2",
-			language: "en"
-		},
-		{
-			key: "20",
-			message: `♥♥♥♥♥♥♥♥♥♥♥
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹
-roses which symbolize our 
-eternal love, my darling. 
-Happy Rose Day!
-🌹🌹🌹💐💐💐💐💐🌹🌹🌹`,
-			message_type: "2",
-			language: "en"
-		}
-	];
-};
