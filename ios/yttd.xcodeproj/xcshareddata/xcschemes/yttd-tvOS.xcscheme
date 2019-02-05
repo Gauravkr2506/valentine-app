@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "yttd-tvOS.app"
-               BlueprintName = "yttd-tvOS"
-               ReferencedContainer = "container:yttd.xcodeproj">
+               BuildableName = "valentine-tvOS.app"
+               BlueprintName = "valentine-tvOS"
+               ReferencedContainer = "container:valentine.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "yttd-tvOSTests.xctest"
-               BlueprintName = "yttd-tvOSTests"
-               ReferencedContainer = "container:yttd.xcodeproj">
+               BuildableName = "valentine-tvOSTests.xctest"
+               BlueprintName = "valentine-tvOSTests"
+               ReferencedContainer = "container:valentine.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "yttd-tvOSTests.xctest"
-               BlueprintName = "yttd-tvOSTests"
-               ReferencedContainer = "container:yttd.xcodeproj">
+               BuildableName = "valentine-tvOSTests.xctest"
+               BlueprintName = "valentine-tvOSTests"
+               ReferencedContainer = "container:valentine.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "yttd-tvOS.app"
-            BlueprintName = "yttd-tvOS"
-            ReferencedContainer = "container:yttd.xcodeproj">
+            BuildableName = "valentine-tvOS.app"
+            BlueprintName = "valentine-tvOS"
+            ReferencedContainer = "container:valentine.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "yttd-tvOS.app"
-            BlueprintName = "yttd-tvOS"
-            ReferencedContainer = "container:yttd.xcodeproj">
+            BuildableName = "valentine-tvOS.app"
+            BlueprintName = "valentine-tvOS"
+            ReferencedContainer = "container:valentine.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "yttd-tvOS.app"
-            BlueprintName = "yttd-tvOS"
-            ReferencedContainer = "container:yttd.xcodeproj">
+            BuildableName = "valentine-tvOS.app"
+            BlueprintName = "valentine-tvOS"
+            ReferencedContainer = "container:valentine.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

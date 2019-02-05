@@ -45,7 +45,7 @@ class MessageScreen extends Component {
 
 	clipboard() {
 		Clipboard.setString(this.state.msg.message);
-		ToastAndroid.show('Copied to clipboard', ToastAndroid.SHORT);
+		ToastAndroid.show("Copied to clipboard", ToastAndroid.SHORT);
 	}
 	whatsapp() {
 		Linking.openURL(`whatsapp://send?text=${this.state.msg.message}`);
@@ -60,51 +60,51 @@ class MessageScreen extends Component {
 		// this.setState({ type: type });
 		alert(type);
 	}
-getData(){
-if(this.props.message_type == "1"){
-	return this.props.data;
-}else{
-	return this.props.data.filter(msg =>msg.message_type == this.props.message_type);
-}
-}
+	getData() {
+		if (this.props.message_type == "1") {
+			return this.props.data;
+		} else {
+			return this.props.data.filter(msg => msg.message_type == this.props.message_type);
+		}
+	}
 	render() {
 		return (
 			<View style={{ flex: 1 }}>
 				{/* <TopNavigation changeType={type => this.changeType(type)} /> */}
-					<View style={{ flex: 10 }}>
-				<ImageBackground source={require("./../../img/img2.png")} style={{ flex: 1, backgroundColor: "white" }}>
-
+				<View style={{ flex: 10 }}>
+					<ImageBackground source={require("./../../img/img2.png")} style={{ flex: 1, backgroundColor: "white" }}>
 						<FlatList data={this.getData()} renderItem={this._renderItem} />
-						</ImageBackground>
-					</View>
-					
-					<View style={{ flex: 1, backgroundColor: "#008000" }}>{/* <AdMobBanner adSize="smartBannerPortrait" adUnitID="ca-app-pub-9969212413329273/2210166532" /> */}</View>
-					<Modal
-						animationType="slide"
-						transparent={false}
-						visible={this.state.modalVisible}
-						onRequestClose={() => {
-							this.setState({ modalVisible: false });
-							// Alert.alert("Modal has been closed.");
-						}}
-					>
-				<ImageBackground source={require("./../../img/img3.png")} style={{ flex: 1, backgroundColor: "white" }}>
+					</ImageBackground>
+				</View>
 
+				<View style={{ flex: 1, backgroundColor: "#000" }}>{/* <AdMobBanner adSize="smartBannerPortrait" adUnitID="ca-app-pub-9969212413329273/2210166532" /> */}</View>
+				<Modal
+					animationType="slide"
+					transparent={false}
+					visible={this.state.modalVisible}
+					onRequestClose={() => {
+						this.setState({ modalVisible: false });
+						// Alert.alert("Modal has been closed.");
+					}}
+				>
+					<ImageBackground source={require("./../../img/img1.png")} style={{ flex: 1, backgroundColor: "white" }}>
 						<View style={{ flex: 1 }}>
-							<View style={{ height: 50, width: "100%", flexDirection: "row-reverse", padding: 10 }}>
+							<View style={{ height: 50, width: "100%", alignItems: "flex-end", padding: 10 }}>
 								<TouchableNativeFeedback
 									onPress={() => {
 										this.setState({ modalVisible: false });
 									}}
 									// style={{ height: 50, width: "100%", padding: 10, flexDirection: "row", justifyContent: "flex-end" }}
 								>
-									<Image style={{ width: 20, height: 20 }} source={require("./../../img/close.png")} />
+									<View style={{ flex: 1, width: 36, height: 36, borderRadius: 18, backgroundColor: "#fff", alignItems: "center", justifyContent: "center" }}>
+										<Image style={{ width: 20, height: 20 }} source={require("./../../img/close.png")} />
+									</View>
 								</TouchableNativeFeedback>
 							</View>
 							<View style={{ flex: 1 }}>
 								<View style={{ margin: 30, padding: 10, borderWidth: 4, borderColor: "#FF8448", borderRadius: 20 }}>
 									<ScrollView scrollEnabled={true}>
-										<View style={{ padding: 20 }}>
+										<View style={{ padding: 20, backgroundColor: "rgba(255,255,255,0.9)" }}>
 											<Text style={{ fontSize: 16 }}>{this.state.msg.message}</Text>
 										</View>
 									</ScrollView>
@@ -112,7 +112,7 @@ if(this.props.message_type == "1"){
 							</View>
 
 							<View style={{ height: 110, backgroundColor: "green" }}>
-								<View style={{ height: 60, flexDirection: "row", justifyContent: "space-around", alignItems: "center", backgroundColor: "#C4B96A" }}>
+								<View style={{ height: 60, flexDirection: "row", justifyContent: "space-around", alignItems: "center", backgroundColor: "#ba2a6a" }}>
 									<TouchableHighlight
 										onPress={this.clipboard}
 										style={{
@@ -162,9 +162,8 @@ if(this.props.message_type == "1"){
 								<View style={{ height: 50, backgroundColor: "#333" }} />
 							</View>
 						</View>
-						</ImageBackground>
-					</Modal>
-				
+					</ImageBackground>
+				</Modal>
 			</View>
 		);
 	}
@@ -202,7 +201,7 @@ class MyListItem extends Component {
 const mapStateToProps = state => {
 	return {
 		data: state.message_store.data,
-		message_type:state.main_store.selected_message_type
+		message_type: state.main_store.selected_message_type
 	};
 };
 const mapDispatchToProps = dispatch => {
