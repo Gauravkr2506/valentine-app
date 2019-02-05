@@ -126,9 +126,8 @@ Happy Teddy Bear day👩‍🐻👨
 		},
 		{
 			message: `💞💖🐻💖👩‍🐻👨💖🐻💖💞
-Love me Love my Teddy Bear
-Kiss me Kiss me my Teddy Bear
-Hug me Hug me my Teddy Bear
+Sending you a replica of me to 
+hug, adore and kiss...
 Happy Teddy Bear day👩‍🐻👨
 💞💖🐻💖👩‍🐻👨💖🐻💖💞`,
 			message_type: "5",
@@ -136,9 +135,9 @@ Happy Teddy Bear day👩‍🐻👨
 		},
 		{
 			message: `💞💖🐻💖👩‍🐻👨💖🐻💖💞
-Love me Love my Teddy Bear
-Kiss me Kiss me my Teddy Bear
-Hug me Hug me my Teddy Bear
+You are my l'il chubby doll 
+and I am your teddy bear!!... 
+Miss me baby
 Happy Teddy Bear day👩‍🐻👨
 💞💖🐻💖👩‍🐻👨💖🐻💖💞`,
 			message_type: "5",
@@ -146,9 +145,10 @@ Happy Teddy Bear day👩‍🐻👨
 		},
 		{
 			message: `💞💖🐻💖👩‍🐻👨💖🐻💖💞
-Love me Love my Teddy Bear
-Kiss me Kiss me my Teddy Bear
-Hug me Hug me my Teddy Bear
+I wish I was a teddy bear 
+that lay close to you, so 
+everytime you cuddled it. 
+You cuddled me instead.
 Happy Teddy Bear day👩‍🐻👨
 💞💖🐻💖👩‍🐻👨💖🐻💖💞`,
 			message_type: "5",
@@ -156,9 +156,14 @@ Happy Teddy Bear day👩‍🐻👨
 		},
 		{
 			message: `💞💖🐻💖👩‍🐻👨💖🐻💖💞
-Love me Love my Teddy Bear
-Kiss me Kiss me my Teddy Bear
-Hug me Hug me my Teddy Bear
+You are always in my 
+thoughts and in my 
+dreams whereever may 
+I go you will always 
+be close to my heart 
+on Teddy Bear Day.I'd 
+like to say'I LOVE YOU' 
+more than you know.
 Happy Teddy Bear day👩‍🐻👨
 💞💖🐻💖👩‍🐻👨💖🐻💖💞`,
 			message_type: "5",
@@ -166,9 +171,10 @@ Happy Teddy Bear day👩‍🐻👨
 		},
 		{
 			message: `💞💖🐻💖👩‍🐻👨💖🐻💖💞
-Love me Love my Teddy Bear
-Kiss me Kiss me my Teddy Bear
-Hug me Hug me my Teddy Bear
+It's a TEDDY BEAR DAY! And 
+I 'm thinking of someone cute 
+and huggable that someone 
+SPECIAL IS YOU
 Happy Teddy Bear day👩‍🐻👨
 💞💖🐻💖👩‍🐻👨💖🐻💖💞`,
 			message_type: "5",
@@ -176,9 +182,10 @@ Happy Teddy Bear day👩‍🐻👨
 		},
 		{
 			message: `💞💖🐻💖👩‍🐻👨💖🐻💖💞
-Love me Love my Teddy Bear
-Kiss me Kiss me my Teddy Bear
-Hug me Hug me my Teddy Bear
+I you were a teddy, 
+you would have been 
+the cutest.... 
+Love you!... 
 Happy Teddy Bear day👩‍🐻👨
 💞💖🐻💖👩‍🐻👨💖🐻💖💞`,
 			message_type: "5",
@@ -186,9 +193,9 @@ Happy Teddy Bear day👩‍🐻👨
 		},
 		{
 			message: `💞💖🐻💖👩‍🐻👨💖🐻💖💞
-Love me Love my Teddy Bear
-Kiss me Kiss me my Teddy Bear
-Hug me Hug me my Teddy Bear
+Baby, you are so cute and 
+cuddly.... 
+Love you my teddy bear.... 
 Happy Teddy Bear day👩‍🐻👨
 💞💖🐻💖👩‍🐻👨💖🐻💖💞`,
 			message_type: "5",
@@ -196,9 +203,10 @@ Happy Teddy Bear day👩‍🐻👨
 		},
 		{
 			message: `💞💖🐻💖👩‍🐻👨💖🐻💖💞
-Love me Love my Teddy Bear
-Kiss me Kiss me my Teddy Bear
-Hug me Hug me my Teddy Bear
+Your heart beats to tell you 
+something new... 
+It wants to say.. 
+I LOVE YOU!.. 
 Happy Teddy Bear day👩‍🐻👨
 💞💖🐻💖👩‍🐻👨💖🐻💖💞`,
 			message_type: "5",
@@ -206,9 +214,9 @@ Happy Teddy Bear day👩‍🐻👨
 		},
 		{
 			message: `💞💖🐻💖👩‍🐻👨💖🐻💖💞
-Love me Love my Teddy Bear
-Kiss me Kiss me my Teddy Bear
-Hug me Hug me my Teddy Bear
+I am gifting you this teddy, 
+to tell you that I am ready.. 
+to make you forever mine..
 Happy Teddy Bear day👩‍🐻👨
 💞💖🐻💖👩‍🐻👨💖🐻💖💞`,
 			message_type: "5",
@@ -216,9 +224,10 @@ Happy Teddy Bear day👩‍🐻👨
 		},
 		{
 			message: `💞💖🐻💖👩‍🐻👨💖🐻💖💞
-Love me Love my Teddy Bear
-Kiss me Kiss me my Teddy Bear
-Hug me Hug me my Teddy Bear
+And I found my paradise in you,
+you are the most precious 
+treasure. Just want to say 
+I'll always love you .
 Happy Teddy Bear day👩‍🐻👨
 💞💖🐻💖👩‍🐻👨💖🐻💖💞`,
 			message_type: "5",

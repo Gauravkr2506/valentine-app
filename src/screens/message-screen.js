@@ -1,5 +1,6 @@
 import { connect } from "react-redux";
 import React, { Component } from "react";
+import { AdMobBanner, AdMobInterstitial } from "react-native-admob";
 import {
 	StyleSheet,
 	Text,
@@ -77,7 +78,10 @@ class MessageScreen extends Component {
 					</ImageBackground>
 				</View>
 
-				<View style={{ flex: 1, backgroundColor: "#000" }}>{/* <AdMobBanner adSize="smartBannerPortrait" adUnitID="ca-app-pub-9969212413329273/2210166532" /> */}</View>
+				<View style={{ flex: 1, backgroundColor: "#000" }}>
+
+				<AdMobBanner adSize="smartBannerPortrait" adUnitID="ca-app-pub-9969212413329273/8961048732" />
+				</View>
 				<Modal
 					animationType="slide"
 					transparent={false}
@@ -159,7 +163,9 @@ class MessageScreen extends Component {
 										<Image style={{ width: 20, height: 20 }} source={require("./../../img/share.png")} />
 									</TouchableHighlight>
 								</View>
-								<View style={{ height: 50, backgroundColor: "#333" }} />
+								<View style={{ height: 50, backgroundColor: "#333" }} >
+								<AdMobBanner adSize="smartBannerPortrait" adUnitID="ca-app-pub-9969212413329273/6498536922" />
+								</View>
 							</View>
 						</View>
 					</ImageBackground>

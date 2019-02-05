@@ -37,14 +37,14 @@ export const mainData = () => {
 		},
 		{
 			key: "6",
-			img: require("./../../img/teddy.png"),
+			img: require("./../../img/PROMISE.png"),
 			title: "Promise Day",
 			date: "February 11",
 			description: "Promises are easy to make but hard to keep. It is good to keep the promise we have made to our loved one."
 		},
 		{
 			key: "7",
-			img: require("./../../img/teddy.png"),
+			img: require("./../../img/HUG.png"),
 			title: "Hug Day",
 			date: "February 12",
 			description: "It is warm and charming feeling and makes others happy. Hug is an important feeling of expressing love and affection."
@@ -58,7 +58,7 @@ export const mainData = () => {
 		},
 		{
 			key: "9",
-			img: require("./../../img/teddy.png"),
+			img: require("./../../img/VALENTINE.png"),
 			title: "Valentine’s Day",
 			date: "February 14",
 			description: "Spend this whole day with your loved one to make them feel special. Express your love with gifts, chocolates & roses."
