@@ -21,8 +21,8 @@ import {
 	ToastAndroid
 } from "react-native";
 import Menu, { MenuContext, MenuOptions, MenuOption, MenuTrigger } from "react-native-menu";
-import TopNavigation from "./../components/common/menu";
-import { LoadMessage } from "./../actions/action-message-screen";
+// import TopNavigation from "./../components/common/menu";
+import { LoadMessage,UnselectMessageType } from "./../actions/action-message-screen";
 class MessageScreen extends Component {
 	constructor(props) {
 		super(props);
@@ -37,6 +37,10 @@ class MessageScreen extends Component {
 	}
 	componentDidMount() {
 		InteractionManager.runAfterInteractions(this.props.LoadMessage);
+	}
+	componentWillUnmount(){
+		InteractionManager.runAfterInteractions(this.props.UnselectMessageType);
+
 	}
 	share(data) {
 		this.setState({ modalVisible: true, msg: data });
@@ -64,6 +68,8 @@ class MessageScreen extends Component {
 	getData() {
 		if (this.props.message_type == "1") {
 			return this.props.data;
+		}else if (this.props.message_type == "") {
+			return [];
 		} else {
 			return this.props.data.filter(msg => msg.message_type == this.props.message_type);
 		}
@@ -212,7 +218,9 @@ const mapStateToProps = state => {
 };
 const mapDispatchToProps = dispatch => {
 	return {
-		LoadMessage: () => dispatch(LoadMessage())
+		LoadMessage: () => dispatch(LoadMessage()),
+		UnselectMessageType: () => dispatch(UnselectMessageType())
+		
 	};
 };
 export default connect(
