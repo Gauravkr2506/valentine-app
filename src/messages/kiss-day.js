@@ -175,7 +175,10 @@ Happy Kiss day👩‍❤️‍💋‍👨
 		},
 		{
 			message: `💞💋‍💑👩‍❤️‍💋‍👨💑💋‍💞
-I miss your gorgeous face. I miss your twinkling eyes. I miss your amazing smile. I miss you.
+I miss your gorgeous face. 
+I miss your twinkling eyes. 
+I miss your amazing smile. 
+I miss you.
 Happy Kiss day👩‍❤️‍💋‍👨
 💞💋‍💑👩‍❤️‍💋‍👨💑💋‍💞`,
 			message_type: "8",
@@ -183,13 +186,13 @@ Happy Kiss day👩‍❤️‍💋‍👨
 		},
 		{
 			message: `💞💋‍💑👩‍❤️‍💋‍👨💑💋‍💞
-If I Had A Chance
-I Would Kiss Your Lips 
-Every Second,
-Every Minute,
-Every Hour,	
-And Every Day And 
-Never Get Tired
+What Can Make Me 
+Stop Kissing You,
+Wind, Rain, 
+Or Sunshine?	 
+Nothing.	
+A Day Without 
+A Kiss Makes Me Sick.
 Happy Kiss day👩‍❤️‍💋‍👨
 💞💋‍💑👩‍❤️‍💋‍👨💑💋‍💞`,
 			message_type: "8",
@@ -197,13 +200,10 @@ Happy Kiss day👩‍❤️‍💋‍👨
 		},
 		{
 			message: `💞💋‍💑👩‍❤️‍💋‍👨💑💋‍💞
-If I Had A Chance
-I Would Kiss Your Lips 
-Every Second,
-Every Minute,
-Every Hour,	
-And Every Day And 
-Never Get Tired
+Whats Live? Live Is Love. 
+Whats Love? Love Is Kissing. 
+Whats Kissing? Come Here 
+And I Show You.
 Happy Kiss day👩‍❤️‍💋‍👨
 💞💋‍💑👩‍❤️‍💋‍👨💑💋‍💞`,
 			message_type: "8",
@@ -211,13 +211,10 @@ Happy Kiss day👩‍❤️‍💋‍👨
 		},
 		{
 			message: `💞💋‍💑👩‍❤️‍💋‍👨💑💋‍💞
-If I Had A Chance
-I Would Kiss Your Lips 
-Every Second,
-Every Minute,
-Every Hour,	
-And Every Day And 
-Never Get Tired
+Do you know what is the most 
+beautiful thing in you? 
+The way you shy 
+when I kiss you. 
 Happy Kiss day👩‍❤️‍💋‍👨
 💞💋‍💑👩‍❤️‍💋‍👨💑💋‍💞`,
 			message_type: "8",
@@ -225,18 +222,13 @@ Happy Kiss day👩‍❤️‍💋‍👨
 		},
 		{
 			message: `💞💋‍💑👩‍❤️‍💋‍👨💑💋‍💞
-If I Had A Chance
-I Would Kiss Your Lips 
-Every Second,
-Every Minute,
-Every Hour,	
-And Every Day And 
-Never Get Tired
+Remember our first kiss, 
+how our breath was on hold 
+and we were inside each other.
 Happy Kiss day👩‍❤️‍💋‍👨
 💞💋‍💑👩‍❤️‍💋‍👨💑💋‍💞`,
 			message_type: "8",
 			language: "en"
 		}
-		
 	];
 };

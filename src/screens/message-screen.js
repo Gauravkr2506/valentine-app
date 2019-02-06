@@ -22,7 +22,7 @@ import {
 } from "react-native";
 import Menu, { MenuContext, MenuOptions, MenuOption, MenuTrigger } from "react-native-menu";
 // import TopNavigation from "./../components/common/menu";
-import { LoadMessage,UnselectMessageType } from "./../actions/action-message-screen";
+import { LoadMessage, UnselectMessageType } from "./../actions/action-message-screen";
 class MessageScreen extends Component {
 	constructor(props) {
 		super(props);
@@ -38,9 +38,8 @@ class MessageScreen extends Component {
 	componentDidMount() {
 		InteractionManager.runAfterInteractions(this.props.LoadMessage);
 	}
-	componentWillUnmount(){
+	componentWillUnmount() {
 		InteractionManager.runAfterInteractions(this.props.UnselectMessageType);
-
 	}
 	share(data) {
 		this.setState({ modalVisible: true, msg: data });
@@ -68,7 +67,7 @@ class MessageScreen extends Component {
 	getData() {
 		if (this.props.message_type == "1") {
 			return this.props.data;
-		}else if (this.props.message_type == "") {
+		} else if (this.props.message_type == "") {
 			return [];
 		} else {
 			return this.props.data.filter(msg => msg.message_type == this.props.message_type);
@@ -85,8 +84,7 @@ class MessageScreen extends Component {
 				</View>
 
 				<View style={{ flex: 1, backgroundColor: "#000" }}>
-
-				<AdMobBanner adSize="smartBannerPortrait" adUnitID="ca-app-pub-9969212413329273/8961048732" />
+					<AdMobBanner adSize="smartBannerPortrait" adUnitID="ca-app-pub-9969212413329273/8961048732" />
 				</View>
 				<Modal
 					animationType="slide"
@@ -112,9 +110,9 @@ class MessageScreen extends Component {
 								</TouchableNativeFeedback>
 							</View>
 							<View style={{ flex: 1 }}>
-								<View style={{ margin: 30, padding: 10, borderWidth: 4, borderColor: "#FF8448", borderRadius: 20 }}>
+								<View style={{ margin: 30, padding: 10, borderWidth: 4, borderColor: "#fff", borderRadius: 20 }}>
 									<ScrollView scrollEnabled={true}>
-										<View style={{ padding: 20, backgroundColor: "rgba(255,255,255,0.9)" }}>
+										<View style={{ padding: 20, borderRadius: 18, backgroundColor: "rgba(255,255,255,0.9)" }}>
 											<Text style={{ fontSize: 16 }}>{this.state.msg.message}</Text>
 										</View>
 									</ScrollView>
@@ -169,8 +167,8 @@ class MessageScreen extends Component {
 										<Image style={{ width: 20, height: 20 }} source={require("./../../img/share.png")} />
 									</TouchableHighlight>
 								</View>
-								<View style={{ height: 50, backgroundColor: "#333" }} >
-								<AdMobBanner adSize="smartBannerPortrait" adUnitID="ca-app-pub-9969212413329273/6498536922" />
+								<View style={{ height: 50, backgroundColor: "#333" }}>
+									<AdMobBanner adSize="smartBannerPortrait" adUnitID="ca-app-pub-9969212413329273/6498536922" />
 								</View>
 							</View>
 						</View>
@@ -220,7 +218,6 @@ const mapDispatchToProps = dispatch => {
 	return {
 		LoadMessage: () => dispatch(LoadMessage()),
 		UnselectMessageType: () => dispatch(UnselectMessageType())
-		
 	};
 };
 export default connect(
